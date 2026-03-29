@@ -1,0 +1,13 @@
+[project]
+name = "hakymi-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "deepagents>=0.4.12",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.12",
+    "python-dotenv>=1.2.2",
+    "tavily-python>=0.7.23",
+]
